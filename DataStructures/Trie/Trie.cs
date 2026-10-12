@@ -66,10 +66,24 @@ namespace Red_electrica_Estructuras.DataStructures.Trie
             }
         }
 
-        public string[] BuscarPalabrasConPrefijo(string prefijo, int maxResultados = 10)
+        public string[] BuscarPorPrefijo(string prefijo, int maxResultados = 10)
         {
             string[] resultados = new string[maxResultados];
             int contador = 0;
+
+            TrieNode nodoPrefijo = BuscarNodoPrefijo(prefijo);
+            if (nodoPrefijo == null)
+            {
+                return new string[0]; // No se encontraron palabras con el prefijo
+            }
+            RecolectarPalabras(nodoPrefijo, resultados, ref contador, maxResultados);
+            
+            string[] sugerenciasFinales = new string[contador];
+            for (int i = 0; i < contador; i++)
+            {
+                sugerenciasFinales[i] = resultados[i];
+            }
+            return sugerenciasFinales;
         }
     }
 }
