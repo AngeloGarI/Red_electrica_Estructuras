@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using RedElectricaApp.Models;
-using RedElectricaApp.DataStructures.HashTable;
-using RedElectricaApp.DataStructures.Trie;
-using RedElectricaApp.DataStructures.UnionFind;
-using RedElectricaApp.DataStructures.Graph;
+using Red_electrica_Estructuras.Models;
+using Red_electrica_Estructuras.DataStructures.HashTable;
+using Red_electrica_Estructuras.DataStructures.Trie;
+using Red_electrica_Estructuras.DataStructures.UnionFind;
+using Red_electrica_Estructuras.DataStructures.Graph;
 
-namespace RedElectricaApp.Services
+namespace Red_electrica_Estructuras.Services
 {
     public class FileService
     {

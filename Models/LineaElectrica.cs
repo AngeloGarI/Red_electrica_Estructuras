@@ -18,7 +18,7 @@ namespace Red_electrica_Estructuras.Models
         }
         public override string ToString()
         {
-            string sentido = EsUnidireccional ? "Unidireccional (-->)" : "Bidireccional (<-->)";
+            string sentido = EsUniDireccional ? "Unidireccional (-->)" : "Bidireccional (<-->)";
             return $"Línea: Subestación {OrigenId} {sentido} Subestación {DestinoId} | Distancia: {LongitudKm} km | Costo: ${Costo}";
         }
     }

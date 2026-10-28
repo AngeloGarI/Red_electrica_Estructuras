@@ -1,0 +1,15 @@
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\bin\Debug\net8.0\HashTextoAPP.exe
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\bin\Debug\net8.0\HashTextoAPP.deps.json
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\bin\Debug\net8.0\HashTextoAPP.runtimeconfig.json
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\bin\Debug\net8.0\HashTextoAPP.dll
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\bin\Debug\net8.0\HashTextoAPP.pdb
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.GeneratedMSBuildEditorConfig.editorconfig
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.AssemblyInfoInputs.cache
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.AssemblyInfo.cs
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.csproj.CoreCompileInputs.cache
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.sourcelink.json
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.dll
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\refint\HashTextoAPP.dll
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.pdb
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\HashTextoAPP.genruntimeconfig.cache
+A:\Documentos\Proyecto2_Estructuras2\Red_electrica_Estructuras\obj\Debug\net8.0\ref\HashTextoAPP.dll

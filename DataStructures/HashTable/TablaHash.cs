@@ -54,7 +54,7 @@ namespace Red_electrica_Estructuras.DataStructures.HashTable
 
         public Subestacion Buscar(string clave)
         {
-            int indice = ObtenerIndiceHash(clave);
+            int indice = ObtenerIndice(clave);
             HashNode actual = cubetas[indice];
 
             while (actual != null)
@@ -71,7 +71,7 @@ namespace Red_electrica_Estructuras.DataStructures.HashTable
 
         public bool Eliminar(string clave)
         {
-            int indice = ObtenerIndiceHash(clave);
+            int indice = ObtenerIndice(clave);
             HashNode actual = cubetas[indice];
             HashNode anterior = null;
 

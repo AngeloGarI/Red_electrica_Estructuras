@@ -4,7 +4,7 @@ namespace Red_electrica_Estructuras.DataStructures.Graph
 {
     public class Grafo
     {
-        private AdjListNode[] ListaAdyacencia;
+        private AdjListNode[] listaAdyacencia;
         private int capacidadVertices;
 
         public Grafo (int numeroVertices)

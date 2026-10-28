@@ -1,8 +1,8 @@
 using System;
-using RedElectricaApp.Services;
-using RedElectricaApp.Models;
+using Red_electrica_Estructuras.Services;
+using Red_electrica_Estructuras.Models;
 
-namespace RedElectricaApp.UI
+namespace Red_electrica_Estructuras.UI
 {
     public class MenuHandler
     {
@@ -81,7 +81,7 @@ namespace RedElectricaApp.UI
         private void CargarArchivosMenu()
         {
            Console.WriteLine("   Cargar archivos    ");
-           Console.WriteLine("Ruta subestacione (ejemplo. Data/subestaciones.csv): ");
+           Console.WriteLine("Ruta subestaciones (ejemplo. Data/subestaciones.csv): ");
            string rutaSubs = Console.ReadLine();
            Console.Write("Ruta Lineas ejemplo. Data/lineas.csv: ");
            string rutaLineas = Console.ReadLine();
@@ -140,7 +140,7 @@ namespace RedElectricaApp.UI
 
         private void CalcularRutaMenu()
         {
-            Console.WriteLine("=== RUTA DIJKSTRA ===");
+            Console.WriteLine("   RUTA DIJKSTRA   ");
             Console.Write("ID Origen: "); int.TryParse(Console.ReadLine(), out int org);
             Console.Write("ID Destino: "); int.TryParse(Console.ReadLine(), out int dst);
             servicio.CalcularRutaOptima(org, dst);
@@ -148,7 +148,7 @@ namespace RedElectricaApp.UI
 
         private void EjecutarRecorridosMenu()
         {
-            Console.WriteLine("=== RECORRIDOS BFS / DFS ===");
+            Console.WriteLine("   RECORRIDOS BFS / DFS   ");
             Console.Write("ID Inicio: "); int.TryParse(Console.ReadLine(), out int ini);
             servicio.EjecutarRecorridos(ini);
         }

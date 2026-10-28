@@ -1,11 +1,11 @@
 using System;
-using RedElectricaApp.Models;
-using RedElectricaApp.DataStructures.HashTable;
-using RedElectricaApp.DataStructures.Trie;
-using RedElectricaApp.DataStructures.UnionFind;
-using RedElectricaApp.DataStructures.Graph;
+using Red_electrica_Estructuras.Models;
+using Red_electrica_Estructuras.DataStructures.HashTable;
+using Red_electrica_Estructuras.DataStructures.Trie;
+using Red_electrica_Estructuras.DataStructures.UnionFind;
+using Red_electrica_Estructuras.DataStructures.Graph;
 
-namespace RedElectricaApp.Services
+namespace Red_electrica_Estructuras.Services
 {
     public class RedElectricaService
     {
@@ -79,7 +79,7 @@ namespace RedElectricaApp.Services
                 return;
             }
 
-            Console.WriteLine($"\n=== RUTA ÓPTIMA DE SUMINISTRO (Costo Total: {distancias[destinoId]}) ===");
+            Console.WriteLine($"\n RUTA ÓPTIMA DE SUMINISTRO (Costo Total: {distancias[destinoId]}) ");
             
             int[] caminoInvertido = new int[maxIdRegistrado + 50];
             int contador = 0;
@@ -101,11 +101,11 @@ namespace RedElectricaApp.Services
 
         public void EjecutarRecorridos(int inicioId)
         {
-            Console.WriteLine($"\n--- Recorrido BFS (Anchura) ---");
+            Console.WriteLine($"\n   Recorrido BFS (Anchura)    ");
             grafo.BFS(inicioId, id => Console.Write($"[{id}] "));
             Console.WriteLine();
 
-            Console.WriteLine($"\n--- Recorrido DFS (Profundidad) ---");
+            Console.WriteLine($"\n    Recorrido DFS (Profundidad)    ");
             grafo.DFS(inicioId, id => Console.Write($"[{id}] "));
             Console.WriteLine();
         }
