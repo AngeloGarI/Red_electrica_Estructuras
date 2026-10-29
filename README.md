@@ -1,10 +1,10 @@
-# ⚡ Sistema de Gestión de Red Eléctrica Municipal
+# Sistema de Gestión de Red Eléctrica Municipal
 
 Un sistema de consola en C# desarrollado para optimizar la gestión, autocompletado, búsqueda y análisis de rutas de transmisión en una red de subestaciones eléctricas municipales mediante la integración de **4 estructuras de datos avanzadas implementadas desde cero**.
 
 ---
 
-## 👥 Integrantes y Responsabilidades
+## Integrantes y Responsabilidades
 
 * **[Nombre del Integrante 1]** - *Estructuras:* Tabla Hash y Trie (Árbol de Prefijos)
 * **[Nombre del Integrante 2]** - *Estructuras:* Grafo (BFS, DFS, Dijkstra) y Union-Find
@@ -15,7 +15,7 @@ Un sistema de consola en C# desarrollado para optimizar la gestión, autocomplet
 
 ---
 
-## 🛠️ Estructuras de Datos Implementadas (Sin librerías externas)
+## Estructuras de Datos Implementadas (Sin librerías externas)
 
 1. **Tabla Hash (`TablaHash.cs`)**: Manejo de almacenamiento O(1) de subestaciones utilizando **Encadenamiento (Chaining)** con Listas Enlazadas para resolución de colisiones.
 2. **Trie / Árbol de Prefijos (`Trie.cs`)**: Sistema de sugerencias y autocompletado en tiempo real basado en arreglos ASCII de 256 posiciones.
@@ -24,7 +24,7 @@ Un sistema de consola en C# desarrollado para optimizar la gestión, autocomplet
 
 ---
 
-## 🚀 Requisitos e Instalación
+## Requisitos e Instalación
 
 ### Prerrequisitos
 * **.NET SDK 8.0 / 10.0** o superior instalado.
@@ -48,7 +48,7 @@ Compila y ejecuta el proyecto:
 Bash
 dotnet run
 
-💻 Menú Principal de la Aplicación
+# Menú Principal de la Aplicación
 1. Cargar Datos desde CSV: Carga inicial e integración entre estructuras.
 
 2. Registrar Subestación: Inserta dinámicamente en memoria (Tabla Hash, Trie, Union-Find y Grafo).
