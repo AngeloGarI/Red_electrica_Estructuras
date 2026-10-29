@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Globalization;
 using Red_electrica_Estructuras.Models;
 using Red_electrica_Estructuras.DataStructures.HashTable;
 using Red_electrica_Estructuras.DataStructures.Trie;
@@ -29,7 +30,7 @@ namespace Red_electrica_Estructuras.Services
                 if (partes.Length >= 5)
                 {
                     if (int.TryParse(partes[0].Trim(), out int id) &&
-                        double.TryParse(partes[3].Trim(), out double capacidad))
+                        double.TryParse(partes[3].Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out double capacidad))
                     {
                         string codigo = partes[1].Trim();
                         string nombre = partes[2].Trim();
@@ -68,10 +69,10 @@ namespace Red_electrica_Estructuras.Services
                 string[] partes = linea.Split(',');
                 if (partes.Length >= 4)
                 {
-                    if (int.TryParse(partes[0].Trim(), out int origen) &&
+                    if (int.TryParse(partes[0].Trim(), out int origen) && 
                         int.TryParse(partes[1].Trim(), out int destino) &&
-                        double.TryParse(partes[2].Trim(), out double longitud) &&
-                        double.TryParse(partes[3].Trim(), out double costo))
+                        double.TryParse(partes[2].Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out double longitud) &&
+                        double.TryParse(partes[3].Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out double costo))
                     {
                         bool unidireccional = false;
                         if (partes.Length >= 5)
