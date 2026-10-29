@@ -4,10 +4,9 @@ Un sistema de consola en C# desarrollado para optimizar la gestión, autocomplet
 
 ---
 
-## Integrantes y Responsabilidades
+## Integrante
 
-* **[Nombre del Integrante 1]** - *Estructuras:* Tabla Hash y Trie (Árbol de Prefijos)
-* **[Nombre del Integrante 2]** - *Estructuras:* Grafo (BFS, DFS, Dijkstra) y Union-Find
+Angelo Gustavo García Ixcampary
 
 > **Curso:** Estructura de Datos II  
 > **Universidad:** Universidad Rafael Landívar  
@@ -65,5 +64,5 @@ dotnet run
 
 8. Salir.
 
-📄 Documentación Adicional
+# 📄 Documentación Adicional
 La documentación técnica completa (Diagramas de Clases, Diagramas de Flujo y Análisis de Complejidad Big-O) y el Manual de Usuario detallado se encuentran disponibles en el archivo Manual_Tecnico_y_Usuario.pdf en la raíz de este repositorio.
