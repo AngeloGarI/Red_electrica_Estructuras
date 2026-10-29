@@ -47,7 +47,7 @@ namespace Red_electrica_Estructuras.DataStructures.Graph
             }
         }
 
-        // 1. Recorrido BFS (Anchura) - Utiliza Queue<T> nativa como estructura de control permitida
+        // 1. Recorrido BFS (Anchura)
         public void BFS(int inicioId, Action<int> procesarNodo)
         {
             bool[] visitados = new bool[capacidadVertices];
