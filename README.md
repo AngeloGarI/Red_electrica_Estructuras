@@ -35,7 +35,7 @@ Un sistema de consola en C# desarrollado para optimizar la gestión, autocomplet
 1. Clona el repositorio:
    ```bash
    git clone [https://github.com/AngeloGarI/Red_electrica_Estructuras.git)
-   cd TU-REPOSITORIO
+   cd Red_electrica_Estructuras
 
 Asegúrate de que los archivos de datos iniciales existan en la carpeta Data/:
 
